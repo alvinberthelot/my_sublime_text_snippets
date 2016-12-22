@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+<![CDATA[
+handler: function() {
+  ${1}
+}$SELECTION${2:,}
+]]>
+  </content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rfhandler</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>React: handler function</description>
+</snippet>

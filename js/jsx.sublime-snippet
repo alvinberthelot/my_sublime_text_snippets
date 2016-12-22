@@ -1,7 +1,11 @@
 <snippet>
-  <content><![CDATA[<link type="text/css" rel="stylesheet" href="${1}">]]></content>
+  <content>
+<![CDATA[<script type="text/jsx">
+  ${1}
+</script>]]>
+  </content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>css</tabTrigger>
+  <tabTrigger>jsx</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
